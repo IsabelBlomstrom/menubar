@@ -1,6 +1,9 @@
-body {
+* {
     margin: 0;
+    padding: 0;
 }
+
+
 
 header {
     position: fixed;
@@ -9,5 +12,43 @@ header {
     background-color: black;
     color: white;
     transition: 1s;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+
 }
 
+
+ul {
+    margin-top: 2rem; 
+    font-size: 2rem;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+li {
+    padding: 1rem;
+    font-weight: bold;
+}
+
+.litenmeny {
+    display: flex;
+    align-items: center;
+
+}
+
+.love {
+    padding: 0.5rem;
+}
+
+i {
+    padding: 0.5rem;
+}
+
+.fa-bars {
+    font-size: 2rem;
+}
