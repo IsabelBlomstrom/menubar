@@ -9,3 +9,26 @@ function toggleMenu() {
         header.style.height = '100vh'
     }
 }
+
+function storText() {
+let body = document.querySelector('body')
+
+    if(body.style.fontSize === '2rem') {
+        body.style.fontSize = '1rem'
+    }
+    else {
+        body.style.fontSize = '2rem'
+    }
+}
+
+/*let scale = 1;
+
+function storText() {
+    scale *= 1.1
+    applyScale()
+}
+
+function applyScale() {
+    let body = document.querySelector('body');
+    body.style.fontSize = 'scale(' + scale + ')';
+}*/

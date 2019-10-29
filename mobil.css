@@ -1,0 +1,13 @@
+@media screen and (max-width: 668px) {
+ul {
+    font-size: 2rem;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    margin-top: 3rem;
+    margin-left: 5rem;
+    
+}
+}
